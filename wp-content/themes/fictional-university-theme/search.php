@@ -1,10 +1,7 @@
 <?php
 
 get_header();
-pageBanner(array(
-  'title' => 'Search Results',
-  'subtitle' => 'You searched for &ldquo;' . esc_html(get_search_query(false))  . '&rdquo;'
-));
+
  ?>
 
 <div class="container container--narrow page-section">
